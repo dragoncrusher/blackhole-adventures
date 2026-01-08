@@ -279,7 +279,7 @@ mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 let healthbar = 1
-level = 5
+level = 1
 statusbar2 = statusbars.create(20, 4, StatusBarKind.food)
 statusbar2.setColor(8, 12, 10)
 statusbar2.attachToSprite(mySprite)
