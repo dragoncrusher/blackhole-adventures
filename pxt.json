@@ -1,0 +1,34 @@
+{
+    "name": "blackhole adventures (github)",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "browser-events": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.63",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
